@@ -28,3 +28,8 @@ data/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# JavaScript and Next.js
+node_modules/
+.next/
+.vercel/
