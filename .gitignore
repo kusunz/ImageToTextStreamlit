@@ -1,0 +1,30 @@
+# Secrets and local environment
+.env
+.streamlit/secrets.toml
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Local data (SQLite files, uploads)
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives and temporary files
+*.tar
+*.tar.gz
+*.zip
+.agent-tmp/
+.bug-hunter/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
